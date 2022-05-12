@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Alata&family=Kirang+Haerang&display=swap');
+
+body {
+    background: white;
+    font-family: "Bitter", serif;
+  }
+  .container {
+    overflow: hidden;
+    background: white;
+
+}
+a{
+    font-size: 2vw;
+    color: white;
+    font-family: 'Alata';
+    text-decoration: none;
+    padding: 2vh;
+
+
+}
+a:hover{
+    color: black;
+    background-color: white;
+    text-decoration: underline;
+}
+
+.photobanner, .photobanner2{
+    height: 31vh;
+    width: 250vw;
+    font-size: 0;
+    background-color: black;
+}
+
+.banner{
+    display: inline;
+}
+.button{
+    margin-top: 2vh;
+    width: 100%;
+background-color: black;
+
+    display: flex;
+    justify-content:space-evenly;
+    
+    }
+    .button h2{
+        font-size: 2vw;
+        color: white;
+        font-family: 'Alata';
+        text-align: center;
+        background-color: black;
+        padding: 1vh;
+    
+        }
+
+
+.banner h1{
+font-size: 3.25vw;
+font-family: 'Futura';
+margin-right: auto;
+margin-bottom: 0;
+
+}
+.banner h2{
+    font-size: 2.5vw;
+    font-family: 'Alata';
+margin-top: 0;
+    }
+
+
+.banner p{
+font-size: 2vw;
+font-family: 'Alata';
+
+}
+
+.photobanner img, .photobanner2 img {
+  margin-right: 5px;
+  height: 30vh;
+    width: 45vh;
+}
+
+.photobanner img  {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.photobanner img:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    cursor: pointer;
+
+    -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
+/*keyframe animations*/
+.first {
+    -webkit-animation: bannermove 30s linear infinite;
+       -moz-animation: bannermove 30s linear infinite;
+        -ms-animation: bannermove 30s linear infinite;
+         -o-animation: bannermove 30s linear infinite;
+            animation: bannermove 30s linear infinite;
+}
+
+@keyframes "bannermove" {
+ 0% {margin-left: 0px;}
+ 100% {margin-left: -2130px;}
+}
+
+@-moz-keyframes bannermove {
+ 0% {margin-left: 0px;}
+ 100% {margin-left: -2130px;}
+}
+
+@-webkit-keyframes "bannermove" {
+ 0% {margin-left: 0px;}
+ 100% {margin-left: -2130px;}
+}
+
+@-ms-keyframes "bannermove" {
+ 0% {margin-left: 0px;}
+ 100% {margin-left: -2130px;}
+}
+
+@-o-keyframes "bannermove" {
+ 0% {margin-left: 0px;}
+ 100% {margin-left: -2130px;}
+}
+
+.second {
+    -webkit-animation: bannermoves 30s linear infinite;
+       -moz-animation: bannermoves 30s linear infinite;
+        -ms-animation: bannermoves 30s linear infinite;
+         -o-animation: bannermoves 30s linear infinite;
+            animation: bannermoves 30s linear infinite;
+}
+
+@keyframes "bannermoves" {
+ 0% {margin-left: -2130px;}
+ 100% {margin-left: 0px;}
+}
+
+@-moz-keyframes bannermoves {
+ 0% {margin-left: -2130px;}
+ 100% {margin-left: 0px;}
+}
+
+@-webkit-keyframes "bannermoves" {
+ 0% {margin-left: -2130px;}
+ 100% {margin-left: 0px;}
+}
+
+@-ms-keyframes "bannermoves" {
+ 0% {margin-left: -2130px;}
+ 100% {margin-left: 0px;}
+}
+
+@-o-keyframes "bannermoves" {
+ 0% {margin-left: -2130px;}
+ 100% {margin-left: 0px;}
+}
